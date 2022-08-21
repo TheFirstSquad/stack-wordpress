@@ -1,0 +1,3 @@
+[submodule "template-wordpress-default"]
+	path = template-wordpress-default
+	url = git@github.com:TheFirstSquad/template-wordpress-default.git

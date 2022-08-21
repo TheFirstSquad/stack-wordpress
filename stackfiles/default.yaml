@@ -1,14 +1,3 @@
 type: app
-description: Default stackfile usecase description
-# template used to create the project
-template: stack-wordpress/<template-name>
-inputs:
-  some_input: value
-# list of plugins to be applied after project creation
-plugins:
-  - plugin: stack-wordpress/<plugin-name>
-    inputs:
-      some_input: value
-      some_list:
-        - item1
-        - item2
+description: Default stackfile for Stack Wordpress
+template: stack-wordpress/template-wordpress-default
