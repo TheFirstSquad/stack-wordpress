@@ -1,15 +1,18 @@
-description: "Stackspot :: Stack for WebSite development with Wordpress"
+description: "Develop components like plugins and themes for your website with wordpress"
 name: stack-wordpress
-display-name: stack-wordpress
+display-name: "Stack Wordpress"
 picture: stack.png
 category: fullstack # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - php
+  - php7.4
+  - docker-20.10.8
+  - docker-compose-3.8
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
   - docker 
   - wordpress
+  - php
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
+  - title: "Default - Wordpress WebSite"
     content: docs/use-case.md
     stackfile: stackfiles/default.yaml
