@@ -1,22 +1,38 @@
-### Visão Geral
-O template **default** adiciona em uma stack a capacidade de provisionar o ambiente de desenvolvimento Wordpress com container Docker.
+## Overview
+The **template-wordpress-default** template adds to a stack the ability to provision the Wordpress development environment with a Docker container.
 
-### Pré-requisitos
-Para utilizar esse template você precisa utilizar o `CLI` do `StackSpot` que você pode baixar [**aqui**](https://stackspot.com/).
+## Prerequisites
+To use this template you need to use the `CLI` of `StackSpot` that you can download [**here**](https://stackspot.com/).
 
-**Outras ferramentas necessárias:**
-- Docker
-- Docker Compose
+- Docker: ~20.10.8
+- Docker Compose: ~3.8
 
-### Inputs
-Os inputs necessários para utilizar o template são:  
+## **How to Use**
+### Input parameters
+The inputs parameters needed to use the template are: 
 
-| **Campo**                     | **Valor**         | **Descrição**         |
-| :---                          | :---              | :---                  |
-| Project Name                  | ex.: MyWebSite    | Nome da aplicação     |
-| Wordpress Server Port         | ex.: 81           | Porta do servidor web |
-| Wordpress Database Name       | ex.: wp_stackspot | Nome do Banco de Dados |
-| Wordpress Database Port       | ex.: 3306         | Porta do Banco de Dados|
-| Wordpress Database UserName   | ex.: wp_stackspot | Usuário do Banco de Dados|
-| Wordpress Database Password   | ex.: wp_stackspot | Senha do Banco de Dados|
-| Wordpress Docker Image        | ex.: 6.0.1        | Versão da imagem do Docker|
+| **Field**                     | **Value**         | **Description**   |
+| :---                          | :---              | :---              |
+| Project Name                  | ex.: project-name | Application name  |
+| Wordpress Server Port         | ex.: 81           | Web Server port   |
+| Wordpress Database Name       | ex.: wp_stackspot | Database Name     |
+| Wordpress Database Port       | ex.: 3306         | Database Port     |
+| Wordpress Database UserName   | ex.: wp_stackspot | Database User     |
+| Wordpress Database Password   | ex.: wp_stackspot | Database Password |
+| Wordpress Docker Image        | ex.: 6.0.1        | Docker image name |
+
+ ## Creating the project from the template
+
+ ```bash
+stk create app project-name -p stack-wordpress/default
+ ```
+
+## Execution of the created project
+
+After creating your project, to build and run the docker containers solution, run the command below in the root of where you find the **docker-compose.yml** file
+
+```bash
+docker-compose -f 'docker-compose.yml' up --build
+```
+
+Then open http://localhost:81 in your browser.
