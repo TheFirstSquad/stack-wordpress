@@ -2,13 +2,9 @@ description: "Develop components like plugins and themes for your website with w
 name: stack-wordpress
 display-name: "Stack Wordpress"
 picture: stack.png
-
-category: Backend
-
-compatibility: ["Php"]
-
-technologies:
-  - Docker
+category: Full Stack
+compatibility: ["Php7.4", "Docker", "Mysql5.7", "Wordpress" ]
+technologies: [ "Docker", "Php"]
 
 about: docs/about.md
 use-cases:
