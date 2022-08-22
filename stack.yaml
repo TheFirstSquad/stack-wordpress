@@ -5,8 +5,7 @@ picture: stack.png
 
 category: Backend
 
-compatibility:
-  - java
+compatibility: ["Aws"]
 
 technologies:
   - Docker
