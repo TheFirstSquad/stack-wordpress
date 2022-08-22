@@ -5,7 +5,8 @@ picture: stack.png
 
 category: "Backend"
 
-compatibility: ["PHP"]
+compatibility:
+  - Docker
 
 technologies:
   - Docker
