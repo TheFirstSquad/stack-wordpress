@@ -2,7 +2,7 @@ description: "Develop components like plugins and themes for your website with w
 name: stack-wordpress
 display-name: "Stack Wordpress"
 picture: stack.png
-category: "Full Stack" # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: "Backend" # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
   - php
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
