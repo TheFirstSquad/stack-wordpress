@@ -3,10 +3,10 @@ name: stack-wordpress
 display-name: "Stack Wordpress"
 picture: stack.png
 
-category: "Backend"
+category: Backend
 
 compatibility:
-  - AWS
+  - java
 
 technologies:
   - Docker
