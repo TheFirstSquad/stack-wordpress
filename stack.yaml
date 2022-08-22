@@ -5,7 +5,7 @@ picture: stack.png
 
 category: Backend
 
-compatibility: ["Aws"]
+compatibility: ["Php"]
 
 technologies:
   - Docker
