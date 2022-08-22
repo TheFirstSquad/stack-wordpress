@@ -24,7 +24,7 @@ The inputs parameters needed to use the template are:
  ## Creating the project from the template
 
  ```bash
-stk create app project-name -p stack-wordpress/default
+stk create app project-name -S stack-wordpress/default
  ```
 
 ## Execution of the created project
