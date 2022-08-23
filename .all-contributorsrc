@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lucasapoena",
+      "name": "Lucas Apoena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135553?v=4",
+      "profile": "https://www.lucasapoena.eti.br/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "stack-wordpress",
+  "projectOwner": "TheFirstSquad",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
