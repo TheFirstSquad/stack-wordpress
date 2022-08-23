@@ -4,3 +4,6 @@
 [submodule "plugin-wordpress-scaffold-generic-plugin"]
 	path = plugin-wordpress-scaffold-generic-plugin
 	url = git@github.com:TheFirstSquad/plugin-wordpress-scaffold-generic-plugin.git
+[submodule "plugin-wordpress-scaffold-generic-theme"]
+	path = plugin-wordpress-scaffold-generic-theme
+	url = https://github.com/TheFirstSquad/plugin-wordpress-scaffold-generic-theme.git
