@@ -1,6 +1,6 @@
 # stack-wordpress
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Stackspot :: Stack for WebSite development with Wordpress
 
@@ -20,6 +20,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.lucasapoena.eti.br/"><img src="https://avatars.githubusercontent.com/u/135553?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucas Apoena</b></sub></a><br /><a href="https://github.com/TheFirstSquad/stack-wordpress/commits?author=lucasapoena" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/andreevilela"><img src="https://avatars.githubusercontent.com/u/54727503?v=4?s=100" width="100px;" alt=""/><br /><sub><b>andreevilela</b></sub></a><br /><a href="https://github.com/TheFirstSquad/stack-wordpress/commits?author=andreevilela" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/marcioprog"><img src="https://avatars.githubusercontent.com/u/13678884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Márcio Rodrigues da Silva</b></sub></a><br /><a href="https://github.com/TheFirstSquad/stack-wordpress/commits?author=marcioprog" title="Code">💻</a></td>
   </tr>
 </table>
 
